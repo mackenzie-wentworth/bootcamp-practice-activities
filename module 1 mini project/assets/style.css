@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+header,
+footer {
+    width: auto;
+    height: auto;
+    background-color:auto;
+    color:auto;
+    font-family:auto;
+}
+
+h1,
+h2 {
+    text-align: center 
+}
+
+#top-navigation-bar {}
+
+.card {}
+
+#section-1 {}
+
+#section-2 {}
+
+#contact-form {}
+
+#name,
+#email {}
+
+#send {}

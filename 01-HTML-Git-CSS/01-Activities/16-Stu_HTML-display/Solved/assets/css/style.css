@@ -14,35 +14,34 @@ ul {
 
 /* List items in navigation bar */
 li {
-  /* TODO: Add your code here */
+  /* Sets display to inline */
+  display: inline;
   list-style-type: none;
   font-size: 40px;
 }
 
 /* Boxes */
 img {
-  /* TODO: Add your code here */
+  /* Sets display to block */
+  display: block;
+  /*Sets margins to center elements*/
   margin: 0 auto;
-  display: grid;
 }
 
 #item-1 {
   background-color: #e0115f;
-  display: inline-block;
 }
 
 #item-2 {
   background-color: #0000ff;
-  display: inline-block;
 }
 
 #item-3 {
   background-color: #999900;
-  display: inline-block;
 }
 
 /* Box 3 */
 #image-3 {
-  /* TODO: Add your code here */
-  display: grid;
+  /* Change display: none to display: block */
+  display: block;
 }

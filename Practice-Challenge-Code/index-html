@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacKenzie Wentworth's Professional Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+    <header class="header">
+        <!-- <div class="header-bundle">
+            <div>
+                <img class="profile-picture" src="./assets/images/mackenzie-wentworth-headshot.png" alt="Professional headshot of MacKenzie Wentworth" />
+            </div>
+            <h1>MacKenzie Wentworth</h1>
+        </div> -->
+        <navbar>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <img class="profile-picture" src="./assets/images/mackenzie-wentworth-headshot.png" alt="Professional headshot of MacKenzie Wentworth" />
+                </li>
+                <li class="nav-item">
+                    <h1>MacKenzie Wentworth</h1>
+                </li>
+                <li class="nav-item">
+                    <a href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contact Me</a>
+                </li>
+            </ul>
+        </navbar>
+    </header>
+
+    <main>
+        
+        <section>
+            <article id="about-me">
+                <h1 class="portfolio-headings">About Me</h1>
+                <!-- <img id="fancy-box-image" src="./assets/images/mackenzie-wentworth-headshot.png" alt="Professional headshot of MacKenzie Wentworth" /> -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </article>
+
+            <!-- WHEN I click on the images of the applications, THEN I am taken to that deployed application. -->
+            <article id="work">
+                <h1 class="portfolio-headings">Work</h1>
+                <div>
+                    <h2 class="card-headings" id="project-1">Project 1</h2>
+                    <p class="heading-subdescription">Sub-description 1 here</p>
+                    <!-- <img id="project-1-image" src="./assets/images/1-pexels-fauxels-3183132.jpg" alt="Project 1 Image"> -->
+                </div>
+
+                <div class="flexcontainer-project-cards">
+                    <div>
+                        <h2 class="card-headings">Project 2</h2>
+                        <p class="heading-subdescription">Sub-description 2 here</p>
+                        <img src="./assets/images/2-pexels-jakub-novacek-924824 (1).jpg" alt="Project 2 Image">
+                    </div>
+
+                    <div>
+                        <h2 class="card-headings">Project 3</h2>
+                        <p class="heading-subdescription">Sub-description 3 here</p>
+                        <img src="./assets/images/3-pexels-steve-johnson-12732215.jpg" alt="Project 3 Image">
+                    </div>
+
+                    <div>
+                        <h2 class="card-headings">Project 4</h2>
+                        <p class="heading-subdescription">Sub-description 4 here</p>
+                        <img src="./assets/images/4-pexels-bruno-thethe-1910225 (1).jpg" alt="Project 4 Image">
+                    </div>
+
+                    <div>
+                        <h2 class="card-headings">Project 5</h2>
+                        <p class="heading-subdescription">Sub-description 5 here</p>
+                        <img src="./assets/images/5-pexels-steve-johnson-12810661.jpg" alt="Project 5 Image">
+                    </div>
+                </div>
+            </article>
+
+            <article id="contact-me">
+                <h1 class="portfolio-headings">Contact Me</h1>
+                <ul>
+                    <li><a href="mwentworth28@gmail.com">mwentworth28@gmail.com</a></li>
+                    <li><a href="#">(555) 555-5555</a></li>
+                    <li><a href="https://github.com/mackenzie-wentworth?tab=repositories">GitHub</a></li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <h4>Made with ❤️️ by MacKenzie Wentworth</h4>
+    </footer>
+
+</body>
+</html>
+
+        <!-- <section class="portfolio-headings" id="about-me">
+            <h1>About Me</h1>
+            <img src="./assets/images/mackenzie-wentworth-headshot.png" alt="Professional headshot of MacKenzie Wentworth" class="float" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </section>
+
+        <section class="portfolio-headings" id="work">
+            <h1>Work</h1>
+
+            <article id="project-card-1">
+                <img src="./assets/images/1-pexels-fauxels-3183132.jpg" alt="Project 1 Image">
+                <h2>Project 1</h2>
+                <p>Sub-description 1 here</p>
+            </article>
+
+            <article class="flexcontainer-project-cards">
+                <div id="project-card-2">
+                    <img src="./assets/images/2-pexels-jakub-novacek-924824 (1).jpg" alt="Project 2 Image">
+                    <h2>Project 2</h2>
+                    <p>Sub-description 2 here</p>
+                </div>
+                <div id="project-card-3">
+                    <img src="./assets/images/3-pexels-steve-johnson-12732215.jpg" alt="Project 3 Image">
+                    <h2>Project 3</h2>
+                    <p>Sub-description 3 here</p>
+                </div>
+                <div id="project-card-4">
+                    <img src="./assets/images/4-pexels-bruno-thethe-1910225 (1).jpg" alt="Project 4 Image ">
+                    <h2>Project 4</h2>
+                    <p>Sub-description 4 here</p>
+                </div>
+                <div id="project-card-5">
+                    <img src="./assets/images/5-pexels-steve-johnson-12810661.jpg" alt="Project 5 Image">
+                    <h2>Project 5</h2>
+                    <p>Sub-description 5 here</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="portfolio-headings" id="contact-me">
+            <h1>Contact Me</h1>
+            <ul>
+                <li><a href="mwentworth28@gmail.com">mwentworth28@gmail.com</a></li>
+                <li><a href="#">(555) 555-5555</a></li>
+                <li><a href="https://github.com/mackenzie-wentworth?tab=repositories">GitHub</a></li>
+            </ul>
+        </section> -->

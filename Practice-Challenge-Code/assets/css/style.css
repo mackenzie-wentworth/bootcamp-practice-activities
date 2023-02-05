@@ -102,3 +102,17 @@ body {
     background-color: gray;
     color: white; 
 } */
+
+.work-container {
+    display: flex;
+    width: 100%;
+}
+
+.container-header {
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}

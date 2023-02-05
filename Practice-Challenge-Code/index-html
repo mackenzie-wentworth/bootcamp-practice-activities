@@ -40,19 +40,18 @@
     <main>
         
         <section>
-            <article id="about-me">
+            <article class="card" id="about-me">
                 <h1 class="portfolio-headings">About Me</h1>
-                <!-- <img id="fancy-box-image" src="./assets/images/mackenzie-wentworth-headshot.png" alt="Professional headshot of MacKenzie Wentworth" /> -->
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </article>
 
             <!-- WHEN I click on the images of the applications, THEN I am taken to that deployed application. -->
-            <article id="work">
+            <article class="card" id="work">
                 <h1 class="portfolio-headings">Work</h1>
                 <div>
                     <h2 class="card-headings" id="project-1">Project 1</h2>
                     <p class="heading-subdescription">Sub-description 1 here</p>
-                    <!-- <img id="project-1-image" src="./assets/images/1-pexels-fauxels-3183132.jpg" alt="Project 1 Image"> -->
+                    <img id="project-1-image" src="./assets/images/1-pexels-fauxels-3183132.jpg" alt="Project 1 Image">
                 </div>
 
                 <div class="flexcontainer-project-cards">
@@ -82,7 +81,7 @@
                 </div>
             </article>
 
-            <article id="contact-me">
+            <article class="card" id="contact-me">
                 <h1 class="portfolio-headings">Contact Me</h1>
                 <ul>
                     <li><a href="mwentworth28@gmail.com">mwentworth28@gmail.com</a></li>

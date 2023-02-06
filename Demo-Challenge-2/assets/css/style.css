@@ -41,6 +41,7 @@ body {
     .row, .navbar {
         flex-direction: column;
     }
+}
 
 .color-box {
     padding: 20px;
@@ -85,7 +86,7 @@ body {
     padding: 0 4px;
   }
 
-  .project-column {
+  .project-column img{
     margin-top: 8px;
     vertical-align: middle;
     background-color: #aaa;
@@ -109,9 +110,5 @@ body {
 .portfolio-wrapper {
     margin: 0px;
 }
-
-
-
-
     
-}
+

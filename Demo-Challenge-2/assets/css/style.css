@@ -111,4 +111,30 @@ body {
     margin: 0px;
 }
     
+.project-img-text-container {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+}
+
+.project-text-block {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #1abc9c;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project-text-block a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.project-text-block a:hover {
+    color: black;
+}
 

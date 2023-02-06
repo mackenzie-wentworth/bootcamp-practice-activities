@@ -14,37 +14,6 @@ body {
     color: white;
 }
 
-.navbar {
-    display: flex;
-    background-color: #333;
-}
-
-.navbar a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.footer {
-    display: flex;
-    margin-top: auto;
-    width: 100%;
-    text-align: center;
-    background: #ddd;
-}
-
-@media screen and (max-width: 700px) {
-    .row, .navbar {
-        flex-direction: column;
-    }
-}
-
 .color-box {
     padding: 20px;
     text-align: center;
@@ -67,7 +36,6 @@ body {
     
 }
 
-
 .avatar {
     vertical-align: middle;
     width: 50px;
@@ -75,6 +43,48 @@ body {
     border-radius: 50%;
 
   }
+
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* .footer {
+    margin-top: auto;
+    display: flex;
+    width: 100%;
+    background: #ddd;
+} */
+
+/* @media(max-width: 1300px) {
+    .footer {
+        flex: 100%;
+        max-width: 100%;
+    }
+} */
+
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
+
+.portfolio-wrapper {
+    margin: 0px;
+}
 
   .project-row {
     display: flex;
@@ -109,10 +119,6 @@ body {
     }
 }
 
-.portfolio-wrapper {
-    margin: 0px;
-}
-    
 .project-img-text-container {
     position: relative;
     text-align: center;
@@ -156,4 +162,13 @@ body {
 .contact-item a {
     text-decoration: none;
     color: black;
+}
+
+.footer {
+    position: fixed;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #ddd;
 }

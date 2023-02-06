@@ -32,7 +32,9 @@ body {
 }
 
 .footer {
-    padding: 20px;
+    display: flex;
+    margin-top: auto;
+    width: 100%;
     text-align: center;
     background: #ddd;
 }
@@ -86,7 +88,7 @@ body {
     padding: 0 4px;
   }
 
-  .project-column img{
+  .project-column img {
     margin-top: 8px;
     vertical-align: middle;
     background-color: #aaa;
@@ -138,3 +140,20 @@ body {
     color: black;
 }
 
+.contact-list {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: black;
+}

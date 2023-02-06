@@ -65,5 +65,53 @@ body {
 }
 
 
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+  }
+
+  .project-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .project-column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .project-column {
+    margin-top: 8px;
+    vertical-align: middle;
+    background-color: #aaa;
+  }
+
+  @media (max-width: 800px) {
+    .project-column {
+        flex: 50%;
+        max-width: 50%;
+    }
+    
+  }
+
+  @media (max-width: 600px) {
+    .project-column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.portfolio-wrapper {
+    margin: 0px;
+}
+
+
+
+
     
 }

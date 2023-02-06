@@ -1,3 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+
+.header-list {
+    /* background:rgb(230, 216, 216); */
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    display: inline-block;
+}
+
+.header-item {
+    list-style: none;
+    display: inline;
+}
+
+.header-item img {
+    width: 15%;
+    border-radius: 100%;
+    display: inline;
+}
+
+.header-item h1 {
+   display: inline;
+   font-size: 300%;
+}
+
+.nav-list {
+    background: pink;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
 
 .flex-container {
     display: flex;

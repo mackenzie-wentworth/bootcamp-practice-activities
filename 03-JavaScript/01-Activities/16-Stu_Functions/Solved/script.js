@@ -30,3 +30,6 @@ var isEqualTakeTwo = function (x, y) {
 
 // Logs "They are not equal"
 isEqualTakeTwo(10, true);
+
+
+

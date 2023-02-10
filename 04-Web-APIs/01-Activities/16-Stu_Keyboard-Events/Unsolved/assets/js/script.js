@@ -8,4 +8,4 @@ function keyupAction() {
 
 document.addEventListener("keyup", keyupAction);
 // TODO: Add Event Listener for "keydown" event
-
+document.addEventListener("keydown", keydownAction);
